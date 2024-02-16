@@ -1,0 +1,27 @@
+#+TITLE:     burp-clj
+#+SUBTITLE:  Burp suite extension to use a clojure REPL
+#+AUTHOR:    Justin Bishop
+#+KEYWORDS:  burp suite, web proxy, hacking, repl, clojure
+#+LANGUAGE:  en
+
+Burp suite extension to use a clojure REPL with emacs via CIDER.
+
+* Usage
+Build the jar with 'lein uberjar'
+Add the jar found in targets as an extension in burp suite.
+Use cider-connect in emacs and connect to the port found in the extension output.
+
+* license
+copyright 2024 Justin Bishop
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

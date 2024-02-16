@@ -13,7 +13,6 @@
                         :handler handler
                         :ack-port ack-port
                         :greeting-fn greeting-fn)
-
     (catch Throwable t
       (throw t))))
 
